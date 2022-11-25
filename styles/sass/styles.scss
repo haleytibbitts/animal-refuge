@@ -3,10 +3,10 @@
 @import 'variables';
 @import 'header';
 @import 'suzie';
+@import 'friends';
 
 html {
     font-size: 125%;
-    color: $white;
 }
 
 * {
@@ -29,16 +29,20 @@ h1 {
     @include textStyle('Fredericka The Great', 400, 6rem);
     @include textAlignment(right, 5.9rem);
     text-transform: uppercase;
+    color: $white;
 }
 
 h2 {
-    @include textStyle('Fredericka The Great', 400, 2.6rem);
+    font-family: 'Fredericka The Great', cursive;
+    font-weight: 400;
     text-transform: uppercase;
+    color: $white;
 }
 
 p {
     @include textStyle('Roboto', 300, 0.8rem);
     @include textAlignment(left, 1.2rem);
+    color: $white;
 }
 
 button {
@@ -47,6 +51,14 @@ button {
     text-transform: uppercase;
     padding: 10px 30px;
     margin-top: 30px;
+}
+
+span {
+    display: block;
+}
+
+li {
+    list-style: none;
 }
 
 .wrapper {

@@ -9,21 +9,12 @@ header {
         display: flex;
     }
 
-    li {
-        list-style: none;
-
-        a {
-            color: $white;
-            text-decoration: none;
-            text-transform: uppercase;
-            @include textStyle('Cormorant Garamond', 600, 0.9rem);
-        }
+    a {
+        color: $white;
+        text-decoration: none;
+        text-transform: uppercase;
+        @include textStyle('Cormorant Garamond', 600, 0.9rem);
     }
-
-    span {
-        display: block;
-    }
-
 }
 
 .top-nav {
