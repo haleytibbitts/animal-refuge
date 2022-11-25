@@ -4,6 +4,7 @@
 @import 'header';
 @import 'suzie';
 @import 'friends';
+@import 'middle-nav';
 
 html {
     font-size: 125%;
@@ -37,6 +38,10 @@ h2 {
     font-weight: 400;
     text-transform: uppercase;
     color: $white;
+}
+
+h3 {
+    font-size: 1.75rem;
 }
 
 p {

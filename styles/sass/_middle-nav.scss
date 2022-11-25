@@ -1,0 +1,28 @@
+.middle-nav {
+    background-color: $darkGreen;
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 80px 0 50px 0;
+        position: relative;
+        left: -30px;
+    }
+
+    a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: $white;
+        text-decoration: none;
+    }
+
+    h3 {
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+}
