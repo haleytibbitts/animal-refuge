@@ -1,0 +1,62 @@
+header {
+    background-image: url(../../assets/image-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        list-style: none;
+
+        a {
+            color: $white;
+            text-decoration: none;
+            text-transform: uppercase;
+            @include textStyle('Cormorant Garamond', 600, 0.9rem);
+        }
+    }
+
+    h1 {
+        @include textStyle('Fredericka The Great', 400, 6rem);
+        @include textAlignment(right, 5.9rem);
+        text-transform: uppercase;
+    }
+
+    span {
+        display: block;
+    }
+
+}
+
+.top-nav {
+
+    ul {
+        width: 33%;
+    }
+
+    li {
+        flex-basis: 25%;
+        padding: 20px 0;
+    }
+
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-end;
+    height: 18%;
+    position: absolute;
+    bottom: 35px;
+    right: 35px;
+
+    ul {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+}

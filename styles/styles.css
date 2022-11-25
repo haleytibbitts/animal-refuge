@@ -259,3 +259,93 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+header {
+  background-image: url(../../assets/image-1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header li {
+  list-style: none;
+}
+header li a {
+  color: #FCFCFC;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Cormorant Garamond";
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+header h1 {
+  font-family: "Fredericka The Great";
+  font-weight: 400;
+  font-size: 6rem;
+  text-align: right;
+  line-height: 5.9rem;
+  text-transform: uppercase;
+}
+header span {
+  display: block;
+}
+
+.top-nav ul {
+  width: 33%;
+}
+.top-nav li {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  padding: 20px 0;
+}
+
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 18%;
+  position: absolute;
+  bottom: 35px;
+  right: 35px;
+}
+.socials ul {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html {
+  font-size: 125%;
+  color: #FCFCFC;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.wrapper {
+  max-width: 1080px;
+  margin: 0 auto;
+  width: 90%;
+}
