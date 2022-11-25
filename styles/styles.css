@@ -283,14 +283,6 @@ header li a {
   font-weight: 600;
   font-size: 0.9rem;
 }
-header h1 {
-  font-family: "Fredericka The Great";
-  font-weight: 400;
-  font-size: 6rem;
-  text-align: right;
-  line-height: 5.9rem;
-  text-transform: uppercase;
-}
 header span {
   display: block;
 }
@@ -311,10 +303,10 @@ header span {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  height: 18%;
+  height: 15%;
   position: absolute;
-  bottom: 35px;
-  right: 35px;
+  bottom: 40px;
+  right: 40px;
 }
 .socials ul {
   -webkit-box-orient: vertical;
@@ -327,6 +319,46 @@ header span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.suzie {
+  background-color: #152D20;
+  padding: 100px 0;
+}
+.suzie .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.suzie .img-container {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+}
+.suzie .text-container {
+  -ms-flex-preferred-size: 75%;
+      flex-basis: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-left: 40px;
+}
+.suzie button {
+  background-color: #FCFCFC;
+  color: #152D20;
+}
+.suzie h2 {
+  position: relative;
+  top: -10px;
 }
 
 html {
@@ -342,6 +374,48 @@ html {
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+h1 {
+  font-family: "Fredericka The Great";
+  font-weight: 400;
+  font-size: 6rem;
+  text-align: right;
+  line-height: 5.9rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Fredericka The Great";
+  font-weight: 400;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 0.8rem;
+  text-align: left;
+  line-height: 1.2rem;
+}
+
+button {
+  font-family: "Cormorant Garamond";
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-align: center;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  margin-top: 30px;
 }
 
 .wrapper {

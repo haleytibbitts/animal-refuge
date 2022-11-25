@@ -1,0 +1,32 @@
+.suzie {
+    background-color: $darkGreen;
+    padding: 100px 0;
+
+    .wrapper {
+        display: flex;
+    }
+
+    .img-container {
+        flex-basis: 25%;
+    }
+
+    .text-container {
+        flex-basis: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-left: 40px;
+    }
+
+    button {
+        background-color: $white;
+        color: $darkGreen;
+    }
+
+    h2 {
+        position: relative;
+        top: -10px;
+    }
+
+}
