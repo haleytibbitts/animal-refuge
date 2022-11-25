@@ -1,0 +1,18 @@
+// color palette
+$white: #FCFCFC;
+$lightGreen: #C3D3CB;
+$black: #000;
+$darkGreen: #152D20;
+
+// text style mixins
+
+@mixin textStyle($fontFamily, $fontWeight, $fontSize, ) {
+    font-family: $fontFamily;
+    font-weight: $fontWeight;
+    font-size: $fontSize;
+}
+
+@mixin textAlignment($textAlign, $lineHeight) {
+    text-align: $textAlign;
+    line-height: $lineHeight;
+}
