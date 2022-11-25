@@ -6,6 +6,7 @@
 @import 'friends';
 @import 'middle-nav';
 @import 'blog';
+@import 'footer';
 
 html {
     font-size: 125%;
@@ -45,7 +46,16 @@ h3 {
     font-size: 1.75rem;
 }
 
-p {
+h4 {
+    @include textStyle('Cormorant Garamond', 600, 1.1rem);
+    line-height: 29px;
+    text-transform: uppercase;
+    color: $white;
+    padding-bottom: 8px;
+}
+
+p,
+label {
     @include textStyle('Roboto', 300, 0.8rem);
     @include textAlignment(left, 1.2rem);
     color: $white;
@@ -59,7 +69,6 @@ button {
     @include textStyle('Cormorant Garamond', 600, 0.9rem);
     @include textAlignment(center, 1.5rem);
     text-transform: uppercase;
-    padding: 10px 30px;
     margin-top: 30px;
 }
 

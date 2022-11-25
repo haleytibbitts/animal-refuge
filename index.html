@@ -16,7 +16,7 @@
 </head>
 
 <body>
-	<header>
+	<header id="home">
 		<div class="wrapper">
 			<nav class="top-nav">
 				<ul>
@@ -38,7 +38,7 @@
 		</nav>
 	</header>
 	<main>
-		<section class="suzie">
+		<section class="suzie" id="about">
 			<div class="wrapper">
 				<div class="img-container">
 					<img src="./assets/image-6.jpg"
@@ -61,7 +61,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="friends">
+		<section class="friends" id="gallery">
 			<div class="wrapper">
 				<h2>some of our<span>friends</span></h2>
 				<ul class="gallery">
@@ -93,7 +93,7 @@
 					</a></li>
 			</ul>
 		</section>
-		<section class="blog">
+		<section class="blog" id="blog">
 			<article class="text-container">
 				<h3>fascinating facts<span>about zebras</span></h3>
 				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsa necessitatibus sunt in modi,
@@ -120,7 +120,33 @@
 			</article>
 		</section>
 	</main>
-
+	<footer id="contact">
+		<div class="wrapper">
+			<nav class="bottom-nav">
+				<ul>
+					<li><a href="#home">home</a></li>
+					<li><a href="#blog">blog</a></li>
+					<li><a href="#gallery">gallery</a></li>
+					<li><a href="#contact">contact</a></li>
+				</ul>
+			</nav>
+			<form action="#">
+				<h4>stay updated</h4>
+				<label for="subscribe">Subscribe to our newsletter to stay updated.</label>
+				<div class="submission">
+					<input type="email" id="subscribe" placeholder="email address">
+					<button type="submit">subscribe</button>
+				</div>
+			</form>
+			<address>
+				<h4>contact</h4>
+				<p>info@email.com | 123 - 456 - 7890</p>
+				<p>123 some road, Toronto, ON</p>
+				<p>A5A 5A5, Canada</p>
+			</address>
+		</div>
+		<p class="copyright">Copyright &copy; 2019 HackerYou</p>
+	</footer>
 </body>
 
 </html>
