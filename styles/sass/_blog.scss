@@ -1,0 +1,40 @@
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+
+    article {
+        flex-basis: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0 10vw;
+    }
+
+    .img-container {
+        flex-basis: 50%;
+    }
+
+    h3 {
+        font-family: 'Fredericka the Great', cursive;
+        text-transform: uppercase;
+        color: $darkGreen;
+    }
+
+    p {
+        color: $black;
+        margin-top: 15px;
+    }
+
+    button {
+        background-color: $darkGreen;
+    }
+
+    a {
+        color: $white;
+    }
+
+    .text-container {
+        background-color: $white;
+    }
+}

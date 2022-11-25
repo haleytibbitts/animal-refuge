@@ -350,6 +350,9 @@ header a {
   background-color: #FCFCFC;
   color: #152D20;
 }
+.suzie a {
+  color: #152D20;
+}
 .suzie h2 {
   font-size: 2.6rem;
   position: relative;
@@ -415,6 +418,54 @@ header a {
   margin-top: 20px;
 }
 
+.blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.blog article {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0 10vw;
+}
+.blog .img-container {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+.blog h3 {
+  font-family: "Fredericka the Great", cursive;
+  text-transform: uppercase;
+  color: #152D20;
+}
+.blog p {
+  color: #000;
+  margin-top: 15px;
+}
+.blog button {
+  background-color: #152D20;
+}
+.blog a {
+  color: #FCFCFC;
+}
+.blog .text-container {
+  background-color: #FCFCFC;
+}
+
 html {
   font-size: 125%;
 }
@@ -464,6 +515,10 @@ p {
   text-align: left;
   line-height: 1.2rem;
   color: #FCFCFC;
+}
+
+a {
+  text-decoration: none;
 }
 
 button {

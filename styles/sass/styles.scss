@@ -5,6 +5,7 @@
 @import 'suzie';
 @import 'friends';
 @import 'middle-nav';
+@import 'blog';
 
 html {
     font-size: 125%;
@@ -48,6 +49,10 @@ p {
     @include textStyle('Roboto', 300, 0.8rem);
     @include textAlignment(left, 1.2rem);
     color: $white;
+}
+
+a {
+    text-decoration: none;
 }
 
 button {
