@@ -67,6 +67,12 @@ a {
     text-decoration: none;
 }
 
+a:hover,
+a:focus {
+    color: $lightGreen;
+    transition: 0.2s;
+}
+
 button {
     @include textStyle('Cormorant Garamond', 600, 0.9rem);
     @include textAlignment(center, 1.5rem);

@@ -730,6 +730,10 @@ header .socials-menu {
     background-color: #C3D3CB;
     z-index: 30;
   }
+  header .nav-menu a,
+header .socials-menu a {
+    color: #152D20;
+  }
   header li {
     margin: 16px 0;
   }
@@ -916,6 +920,13 @@ label {
 
 a {
   text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #C3D3CB;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 button {
