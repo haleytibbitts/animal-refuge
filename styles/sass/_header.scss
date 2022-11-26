@@ -15,6 +15,10 @@ header {
         text-transform: uppercase;
         @include textStyle('Cormorant Garamond', 600, 0.9rem);
     }
+
+    .wrapper {
+        position: relative;
+    }
 }
 
 .top-nav {
@@ -28,6 +32,23 @@ header {
         padding: 20px 0;
     }
 
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.bar {
+    display: block;
+    width: 40px;
+    height: 5px;
+    margin: 7px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: $white;
+    border: 1px solid $darkGreen;
 }
 
 .socials {
