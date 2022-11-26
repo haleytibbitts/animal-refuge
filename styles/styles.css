@@ -583,10 +583,20 @@ address p {
   .top-nav ul {
     width: 80%;
   }
+  .socials {
+    bottom: 40px;
+    right: 15px;
+  }
   .suzie .img-container,
 .suzie .text-container {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
+  }
+  .blog {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .blog article,
 .blog .img-container {
@@ -707,6 +717,7 @@ footer address {
     -ms-flex-pack: distribute;
         justify-content: space-around;
     padding: 20px 0;
+    z-index: 30;
   }
   header .nav-menu,
 header .socials-menu {
@@ -717,6 +728,7 @@ header .socials-menu {
     -webkit-transition: 0.3s;
     transition: 0.3s;
     background-color: #C3D3CB;
+    z-index: 30;
   }
   header li {
     margin: 16px 0;
@@ -747,6 +759,97 @@ header .socials-menu {
   .hamburger.active .bar:nth-child(3) {
     -webkit-transform: translateY(-8px) rotate(-45deg);
             transform: translateY(-8px) rotate(-45deg);
+  }
+  .suzie {
+    padding: 50px 0;
+  }
+  .suzie .wrapper {
+    display: block;
+  }
+  .suzie .img-container {
+    height: 30vh;
+  }
+  .suzie img {
+    -o-object-position: top;
+       object-position: top;
+  }
+  .suzie .text-container {
+    padding-top: 50px;
+    margin-left: 0;
+  }
+  .suzie h2 {
+    font-size: 1.9rem;
+  }
+  .suzie p {
+    line-height: 1.5rem;
+  }
+  .suzie button {
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .friends li:nth-of-type(3) {
+    display: none;
+  }
+  .friends li:nth-of-type(2) {
+    margin: 0 0 0 10px;
+  }
+  .friends h2 {
+    font-size: 1.9rem;
+    padding: 40px 0;
+  }
+  .friends .gallery {
+    padding-bottom: 50px;
+  }
+  .middle-nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    left: 0;
+    padding-top: 20px;
+  }
+  .middle-nav li {
+    margin-top: 40px;
+  }
+  .middle-nav h3 {
+    font-size: 1.4rem;
+  }
+  .blog {
+    position: relative;
+  }
+  .blog .img-container {
+    height: 25vh;
+  }
+  .blog h3 {
+    font-size: 1.2rem;
+  }
+  .blog p {
+    line-height: 1.5rem;
+  }
+  .blog button {
+    z-index: 20;
+  }
+  .blog .divider {
+    display: block;
+    position: absolute;
+    background-color: #e2e2e2;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    z-index: 10;
+  }
+  footer .wrapper {
+    padding: 50px 0;
+  }
+  footer ul {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  footer li {
+    font-size: 0.9rem;
+  }
+  footer .copyright {
+    font-size: 0.7rem;
   }
 }
 html {
@@ -837,4 +940,8 @@ li {
   max-width: 1080px;
   margin: 0 auto;
   width: 90%;
+}
+
+.divider {
+  display: none;
 }

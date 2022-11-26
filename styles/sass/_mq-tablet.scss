@@ -5,6 +5,11 @@
         }
     }
 
+    .socials {
+        bottom: 40px;
+        right: 15px;
+    }
+
     .suzie {
 
         .img-container,
@@ -14,6 +19,7 @@
     }
 
     .blog {
+        flex-direction: column;
 
         article,
         .img-container {
