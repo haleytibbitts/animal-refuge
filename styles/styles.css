@@ -261,7 +261,7 @@ html {
 }
 
 header {
-  background-image: url("./image-1.jpg");
+  background-image: url("../assets/image-1.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
